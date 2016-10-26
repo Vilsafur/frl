@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Vilsafur/frl/issues"
   },
-  "homepage": "https://github.com/Vilsafur/frl#readme"
+  "homepage": "https://github.com/Vilsafur/frl#readme",
+  "devDependencies": {
+    "mocha": "",
+    "should": ""
+  }
 }
