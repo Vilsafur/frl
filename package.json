@@ -1,0 +1,22 @@
+{
+  "name": "frl",
+  "version": "0.0.1",
+  "description": "File Reading loop",
+  "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vilsafur/frl.git"
+  },
+  "author": "Cyril POIDEVIN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vilsafur/frl/issues"
+  },
+  "homepage": "https://github.com/Vilsafur/frl#readme"
+}
