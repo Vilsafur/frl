@@ -6,7 +6,9 @@
   "directories": {
     "test": "test"
   },
-  "bin": {"frl": "./bin/frl"},
+  "bin": {
+    "frl": "./bin/frl"
+  },
   "scripts": {
     "test": "mocha test/*.js"
   },
@@ -22,6 +24,7 @@
   "homepage": "https://github.com/Vilsafur/frl#readme",
   "devDependencies": {
     "mocha": "",
+    "rewire": "^2.5.2",
     "should": ""
   }
 }

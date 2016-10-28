@@ -8,7 +8,8 @@
  // //////////////////////
  
  var should = require('should');
- var frl = require('../lib/main');
+ var rewire = require('rewire');
+ var frl = rewire('../lib/main');
  
  describe('frl', function(){
    describe('with no argument', function() {
