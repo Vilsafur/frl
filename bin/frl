@@ -2,4 +2,4 @@
 var frl = require('../lib/main');
 
 var args = process.argv.slice(2);
-frl(args, console.log);
+frl(args[0], console.log);
