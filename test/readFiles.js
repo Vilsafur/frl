@@ -10,9 +10,9 @@
 var should = require('should');
 var rewire = require('rewire');
 var frl = rewire('../lib/main');
+var readFiles = frl.__get__('readFiles');
 
 describe('readFiles', function() {
-  var readFiles = frl.__get__('readFiles');
   describe('missing argument', function() {
     describe('files', function() {
       it('return console log to inform no files was specified', function(done) {
@@ -32,8 +32,19 @@ describe('readFiles', function() {
     });
   });
   describe('with arguments', function() {
-    describe('valid', function() {
-      it('launches the right function based on files');
+    describe('launches the right function based on files', function() {
+      it('launches the function to read Video', function() {
+        var result = readFiles(['test.mp4'], 'test', function(result) {
+          result.should.eql('Read video files');
+          done();
+        });
+      });
+      it('launches the function to read Presentation', function() {
+        var result = readFiles(['test.pdf'], 'test', function(result) {
+          result.should.eql('Read presentation file');
+          done();
+        });
+      });
     });
   });
 });

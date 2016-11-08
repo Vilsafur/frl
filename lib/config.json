@@ -1,0 +1,12 @@
+{
+  "fileType" : {
+    "video" : [
+      ".mp4",
+      ".mov",
+      ".avi"
+    ],
+    "presentation" : [
+      ".pdf"
+    ]
+  }
+}

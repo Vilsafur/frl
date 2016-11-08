@@ -26,5 +26,8 @@
     "mocha": "",
     "rewire": "^2.5.2",
     "should": ""
+  },
+  "dependencies": {
+    "chokidar": "^1.6.1"
   }
 }
