@@ -34,7 +34,7 @@ describe('readFiles', function() {
   describe('with arguments', function() {
     describe('launches the right function based on files', function() {
       it('launches the function to read Video', function() {
-        var result = readFiles(['test.mp4'], 'test', function(result) {
+        var result = readFiles(['SampleVideo_1280x720_1mb.mp4'], 'test/testFiles', function(result) {
           result.should.eql('Read video files');
           done();
         });
