@@ -28,6 +28,7 @@
     "should": ""
   },
   "dependencies": {
-    "chokidar": "^1.6.1"
+    "chokidar": "^1.6.1",
+    "omxdirector": "^0.1.2"
   }
 }
