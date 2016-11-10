@@ -25,7 +25,7 @@ describe('getFiles', function() {
     var getFiles = frl.__get__('getFiles');
     describe('invalid', function() {
       it('return console log to inform path is invalid', function(done) {
-         var result = getFiles('Hello', function(result) {
+         var result = getFiles('./hello', function(result) {
            result.should.eql('The given path do not exist');
            done();
          });
