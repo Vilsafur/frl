@@ -1,6 +1,6 @@
 {
   "name": "frl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "File Reading loop",
   "main": "lib/main.js",
   "directories": {
