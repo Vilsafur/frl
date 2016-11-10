@@ -40,7 +40,7 @@ describe('readFiles', function() {
         });
       });
       it('launches the function to read Presentation', function() {
-        var result = readFiles(['test.pdf'], 'test', function(result) {
+        var result = readFiles('test/testFiles/SamplePDF.pdf', function(result) {
           result.should.eql('Read presentation file');
           done();
         });
